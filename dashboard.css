@@ -99,8 +99,11 @@ button{
     font-weight: 700;
 }
 .my-name > a{
-    color: rgb(161, 185, 206);
+    color: rgb(58, 255, 84);
     font-size: 1rem;
+}
+.my-name > a:hover{
+    color: yellow;
 }
 
 
@@ -115,7 +118,7 @@ margin-bottom: 2rem;
 .service >button{
    color: white;
   background-color: rgb(0, 0, 0);
-  border: 3px solid rgb(227, 47, 47);
+  border: 3px solid rgb(217, 94, 94);
   margin: 1rem;
   border-radius: 1rem;
   width:4rem;
@@ -256,6 +259,9 @@ h4{
   grid-template-columns: 3rem 1fr;
   margin-bottom: 0.3rem;
   justify-items: center;
+ }
+ .follow > span >a:hover{
+     color: green;
  }
  footer{
    padding: 0.5rem;
