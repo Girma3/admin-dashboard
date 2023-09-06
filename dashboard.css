@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+    .container{
+       
+         background-color: rgb(229, 255, 0);
+         display: grid;  
+         grid-template-columns: 14rem 3fr;
+         grid-template-rows: 8rem 3rem 5fr 4rem;
+         grid-template-areas: 
+         'sidebar header'
+         'sidebar nav'
+         'sidebar main'
+         'footer footer';
+     }
+/* header part */
+     .header{
+        font-family: 'Roboto mono';
+        background-color: rgb(219, 180, 234);
+        grid-area: header;
+        display: grid;
+        grid-template-rows: 4rem 1fr;
+    }   
+    
+    /* top header part */
+    .top-header{
+        display: grid;
+        
+        grid-template-columns: 2fr 1fr ;
+        align-content: center;
+    }
+    .right-header{
+     
+        padding: 1rem;
+        display: grid;
+        grid-template-columns: 4rem  3rem 3rem;
+    }
+    .bar{
+        justify-self: center;
+        margin-top: 1rem;
+    }
+    input{
+         width:20rem;
+         height: 1rem;
+        border-radius: 0.5rem;
+    }
+    button{
+        background-color: rgb(220, 226, 43);
+        padding: 0.2rem;
+    }
+    .bell{
+        margin-top: 0.4rem;
+        margin-left: 0.5rem;
+        font-size:1.4rem;
+    }
+    .name{
+        align-self: center;
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    /* bottom header  part*/
+
+    .bottom-header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0.5rem;
+    }
+    .profile{
+        display: grid;
+        grid-template-columns: 8rem 1fr;
+        gap: 0.5rem;
+    }
+    .profile-big{
+        justify-self: end;
+    }
+
+    .profile-big > img{
+    
+        width:70px;
+        height:70px;
+        border-radius: 50%;
+        
+    }
+    .user-profile{
+    align-self: center;
+    }
+    .service >button{
+        background-color: rgb(116, 42, 165);
+        margin: 1rem;
+        border-radius: 1rem;
+        width:4rem;
+        padding: 0.5rem;
+    }
